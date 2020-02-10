@@ -1,0 +1,29 @@
+{
+  "name": "ditos-bot",
+  "version": "1.0.0",
+  "description": "Bot de frases para o Telegram",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leomaurodesenv/ditos-bot.git"
+  },
+  "keywords": [
+    "chatbot",
+    "bot",
+    "telegram"
+  ],
+  "author": "Leonardo Mauro <leo.mauro.desenv@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/leomaurodesenv/ditos-bot/issues"
+  },
+  "homepage": "https://github.com/leomaurodesenv/ditos-bot#readme",
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "node-telegram-bot-api": "^0.40.0"
+  }
+}
